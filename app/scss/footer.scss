@@ -1,0 +1,46 @@
+.footer{
+  margin-top: 8%;
+  background: url('../img/header-bg.jpg') center / cover no-repeat;
+  color: #fff;
+  text-align: center;
+  &__wrapper{
+    padding: 11vw 0;
+  }
+  &__title{
+    font-size: 26px;
+  }
+  &__subtitle{
+    font-size: 12px;
+  }
+  &__form{
+    margin-top: 4vw;
+    &__wrapper{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    input{
+      width: calc(100%/3 - 20px);
+      border: 1px solid #fff;
+      padding: 15px 9px;
+      color: #fff;
+      background: transparent;
+      font-size: 14px;
+      outline: none;
+      &::placeholder{
+        color: #fff;
+        font-size: 14px;
+      }
+    }
+    &__btn{
+      margin: 40px auto 0;
+    }
+  }
+  &__copyright{
+    background: #000;
+    padding: 4vw 0;
+    text-align: left;
+    font-size: 12px;
+    color: #555;
+  }
+}
